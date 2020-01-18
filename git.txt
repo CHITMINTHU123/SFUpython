@@ -1,0 +1,40 @@
+user name - CHITMINTHU123
+email     - mrchitminthu@icloud.com
+password  - Chitminthucmt6327#
+
+cd path - go to directory 
+
+first time (new repository)
+			git init
+			git add
+			git config global user.email "mrchitminthu@icloud.com
+			git config global user.name "CHITMINTHU123"
+
+			git commit -m "first commit"
+			git remote add origin https://github.com/CHITMINTHU123/Sample.git
+			git push -u origin master
+
+(New Repository for New Project)
+			git init
+			git add
+			git config global user.email"mrchitminthu@icloud.com"
+			git config global user.name "CHITMINTHU123"
+
+			git commit- m"first commit"
+			git remote add origin https://github.com/CHITMINTHU123/Sample.git
+			git push -u origin master
+
+(Old Repository For Existing Project)
+			git add.
+			git commit -m "second commit"
+			git push
+
+(Existing Project To Other Laptop)
+			
+			git pull
+			
+(Other Person Project To Own Laptop)
+			
+			git clone https;//github.com/CHITMINTHU123/Smaple.git
+
+
