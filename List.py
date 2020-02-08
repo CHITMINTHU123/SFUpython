@@ -1,17 +1,12 @@
 List - []
 
 
-word = 'programming'
+word = 'Programming'
 
 
- p   r   o   g   r   a   m   m   i   n   g
- 0   1   2   3  4    5   6   7   8   9   10
--11 -10 -9  -8  -7  -6  -5  -4  -3  -2  -1 
-
-
-
-
-
+  P  r   o  g  r  a  m  m  i  n  g
+  0   1  2  3  4  5  6  7  8  9  10
+-11 -10 -9 -8 -7 -6 -5 -4 -3 -2 -1 
 
 
 word[0]
@@ -26,7 +21,7 @@ word[:2] + word[3:]
 
 len(word)
 
-# len = length
+# Len = Length
 
 square = 'Square'
 len(square)
@@ -40,14 +35,14 @@ cube[5] = 60 #error out of range
 cube.append(60)
 cube.append(4+10+20+36)
 cube
->>> cube.sort()
->>> cube
-[10, 20, 30, 40, 50, 60, 75]
->>> cube.remove(75)
->>> cube
-[10, 20, 30, 40, 50, 60]
->>> cube.pop()
-60
+cube.reverse()
+cube
+cube.sort()
+cube
+cube.remove(20)
+cube
+cube.pop()
+cube
 
 cube1 = [10, 20, 30, 45, 50]
 cube2 = [1, 2, 3, 4, 5]
@@ -56,19 +51,53 @@ cube1.extend(cube2)
 del cube1[3]
 del cube1[1:3]
 del cube1[:]
-del cube1[:]
 
-programA = ['A', 'B', 'C', 'D', 'E']
-programB = ['a', 'b', 'c', 'd', 'e']
-programC = programA + programB
-programC[9:] = []
-programC[5:9] = programD
-programC
+programA = ['A','B','C','D','E']
+programB = ['a','b','c','d','e']
+ProgramC = programA + programB
+ProgramC
+['A', 'B', 'C', 'D', 'E', 'a', 'b', 'c', 'd', 'e']
+ProgramD = [1, 2, 3, 4, 5]
+ProgramC = ProgramC + ProgramD
+ProgramC[9:] = []
+ProgramC[5:9] = ProgramD
+ProgramC
 
-len(programC)
+len(ProgramC)
 
-a = [10, 20, 30, 40, 50]
+a = [10, 20 , 30, 40, 50]
 b = [60, 70, 80, 90, 100]
 c = [110, 120, 130, 140, 150]
 x = [a, b, c]
 x
+
+x[0][]
+x[][3]
+x[1][2]
+x[1:2][1:2]
+x[][]
+x[0][0]
+x[1][1]
+x[] 
+
+x[1][2] + x[2][0]
+x[0][1] - x[2][1]
+
+a = [10, 20, 30, 40, 50]
+b = [60, 70, 80, 90, 100]
+c = [110,  120, 130, 140, 150]
+x = [a, b, c]
+d = [160, 170, 180, 190, 200]
+e = [210, 220, 230, 240, 250]
+f = [260, 270, 280, 290, 300]
+y = [d, e, f]
+g = [310, 320, 330, 340, 350]
+h = [360, 370, 380, 390, 400]
+i = [410, 420, 430, 440, 450]
+z = [g, h, i]
+u = [x, y, z]
+
+https://docs.python.org/3/tutorial/datastructures.html#tuples-and-sequences
+5.1.3. List Comprehensions 
+5.1.4. Nested List Comprehensions
+5.2  The del Statement
